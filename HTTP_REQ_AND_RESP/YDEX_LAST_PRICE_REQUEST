@@ -1,7 +1,0 @@
-curl -X 'POST'   'https://invest-public-api.tinkoff.ru/rest/tinkoff.public.invest.api.contract.v1.MarketDataService/GetLastPrices'   -H 'accept: application/json'   -H 'Authorization: Bearer t.JKwYRSPZKZL3tYzYT_dXA4n6-TnvDVHzLyrdvxapc7RzyhUrKDvMqImf2-lOimTBw0OajPgI_ucVoPt6gbMCaA'   -H 'Content-Type: application/json'   -d '{
-  instrumentId: [
-    TCS00A107T19
-  ],
-  lastPriceType: LAST_PRICE_UNSPECIFIED,
-  instrumentStatus: INSTRUMENT_STATUS_UNSPECIFIED
-}'
